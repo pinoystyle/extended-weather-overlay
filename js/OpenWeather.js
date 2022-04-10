@@ -40,6 +40,7 @@ $(document).ready(function(){
 	var nextMin = parameters.get("next-min");
 	var tempMin;
 	var tempMax;
+	var windCondition;
 	var midday = GetMidday();
 	if (parameters.get("lat")){
 		placeCoordinates.lat = parameters.get("lat");
@@ -172,6 +173,8 @@ $(document).ready(function(){
 				}
 				lastCondition.min = tempMin;
 				lastCondition.max = tempMax;
+				windCondition = json.daily[1].wind.speed
+				$( ".windCondition" ).text(Math.round(wind.speed) + unitsSymbol);
 				midday = GetMidday();
 			}
 		})
