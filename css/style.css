@@ -7,7 +7,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-areas: "WeatherIcon CurrentTemp CurrentTemp" "WeatherIcon CurrentTemp CurrentTemp" "WeatherCondition MinTemp MaxTemp";
+	grid-template-areas: "WeatherIcon CurrentTemp CurrentTemp" "WeatherIcon CurrentTemp CurrentTemp" "WeatherCondition MinTemp MaxTemp WindCondition";
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
 }
