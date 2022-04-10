@@ -174,7 +174,6 @@ $(document).ready(function(){
 				lastCondition.min = tempMin;
 				lastCondition.max = tempMax;
 				windCondition = json.daily[1].wind.speed
-				$( ".windCondition" ).text(Math.round(wind.speed) + unitsSymbol);
 				midday = GetMidday();
 			}
 		})
