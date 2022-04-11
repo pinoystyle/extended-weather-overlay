@@ -33,6 +33,7 @@ body {
 	flex-direction: column;
 	font-family: 'Shadows Into Light Two';
 	font-weight: bold;
+	letter-spacing: 5px;
 	border-radius: 5px;
 }
 
