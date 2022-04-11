@@ -37,8 +37,8 @@ body {
 }
 
 .Dark {
-	background-color: rgba(0, 0, 0, 0.3);
-	color: rgba(0, 253, 211);
+	background-color: rgba(0, 253, 211, 0.5);
+	color: rgba(255, 96, 0);
 }
 
 .Light {
