@@ -16,8 +16,6 @@ body {
 
 .CurrentTemp { grid-area: CurrentTemp; font-size: 4em; }
 
-.WindCondition { grid-area: WindCondition; font-size: 4em; }
-
 .WeatherCondition { grid-area: WeatherCondition; font-size: 2em; }
 
 .MinTemp { grid-area: MinTemp; font-size: 2em; }
