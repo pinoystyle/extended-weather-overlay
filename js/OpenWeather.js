@@ -40,6 +40,7 @@ $(document).ready(function(){
 	var nextMin = parameters.get("next-min");
 	var tempMin;
 	var tempMax;
+	var windSpeed;
 	var midday = GetMidday();
 	if (parameters.get("lat")){
 		placeCoordinates.lat = parameters.get("lat");
@@ -129,6 +130,7 @@ $(document).ready(function(){
 			dataType: "json"
 		})
 		.done(function( json ) {
+			windSpeed = json.current.wind_speed;
 			let condition_type = "";
 			if (fullDescription === "on") {
 				condition_type = json.current.weather[0].description;
