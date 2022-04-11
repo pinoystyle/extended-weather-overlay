@@ -14,9 +14,9 @@ body {
 
 .WeatherIcon { grid-area: WeatherIcon; }
 
-.CurrentTemp { grid-area: CurrentTemp; font-size: 2em; }
+.CurrentTemp { grid-area: CurrentTemp; font-size: 3em; }
 
-.WindSpeed { grid-area: WindSpeed; font-size: 2em; }
+.WindSpeed { grid-area: WindSpeed; font-size: 3em; }
 
 .WeatherCondition { grid-area: WeatherCondition; font-size: 2em; }
 
