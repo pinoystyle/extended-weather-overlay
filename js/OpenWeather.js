@@ -163,7 +163,7 @@ $(document).ready(function(){
 					tempMin = json.daily[0].temp.min;
 				}
 				tempMax = json.daily[0].temp.max;
-				$( ".WindSpeed" ).text("Wind "+Math.round(windSpeed * 3,6));
+				$( ".WindSpeed" ).text("Wind "+Math.round(windSpeed * 3,6)+" km/h");
 				if (minMaxText == "on"){
 					$( ".MinTemp" ).text("Min "+Math.round(tempMin) + unitsSymbol);
 					$( ".MaxTemp" ).text("Max "+Math.round(tempMax) + unitsSymbol);
