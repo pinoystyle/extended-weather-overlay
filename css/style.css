@@ -32,7 +32,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Shadows Into Light Two';
-	font-weight: bolder
+	font-weight: bold;
 	border-radius: 5px;
 }
 
